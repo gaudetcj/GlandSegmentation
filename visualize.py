@@ -23,8 +23,8 @@ def visualize_results():
         result = results[i,0]
         result = prep(result)
         
-        plt.imshow(image)
-        plt.imshow(result, alpha=0.75)
+        plt.imshow(image, cmap='Greys')
+        plt.imshow(result, alpha=0.30)
         plt.show()
 
 
